@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Rubik:wght@700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-peugeot-dark: #0A1F44;
+  --color-peugeot-light: #2E5BFF;
+  --color-peugeot-gray: #F2F2F2;
+}
+
+@layer base {
+  body {
+    @apply bg-peugeot-gray text-peugeot-dark antialiased;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply tracking-tight;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
