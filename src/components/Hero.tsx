@@ -121,7 +121,7 @@ export default function Hero() {
           loop
           playsInline
           className="absolute inset-0 w-full h-full object-cover"
-          src="/novi pezo.mov"
+          src="/novi%20pezo.mov"
         />
         {/* Video Overlay */}
         <div 
