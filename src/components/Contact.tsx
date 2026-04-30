@@ -98,7 +98,7 @@ export default function Contact() {
                 <div>
                   <p className="text-sm text-gray-500 font-medium uppercase tracking-wider mb-1">Radno Vrijeme</p>
                   <p className="text-lg font-bold text-[#0A1F44]">Pon - Pet: 08:00 - 16:00</p>
-                  <p className="text-lg font-bold text-[#0A1F44]">Subota: 08:00 - 16:00</p>
+                  <p className="text-lg font-bold text-[#0A1F44]">Subota: 08:00 - 14:00</p>
                 </div>
               </div>
             </div>
