@@ -45,7 +45,6 @@ export default function ImageSlider() {
         <div className="rounded-2xl overflow-hidden shadow-2xl border-4 border-white">
           <video 
             className="w-full h-auto"
-            controls
             autoPlay
             muted
             loop
