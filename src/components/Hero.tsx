@@ -121,7 +121,7 @@ export default function Hero() {
           loop
           playsInline
           className="absolute inset-0 w-full h-full object-cover"
-          src="https://res.cloudinary.com/de7gefkxl/video/upload/q_auto/f_auto/v1775722427/motion_2.0-fast_Cinematic_reveal_of_a_deep_metallic_blue_Peugeot_408_emerging_from_total_darknes-0_1_lslote.mp4"
+          src="/novi pezo.mov"
         />
         {/* Video Overlay */}
         <div 
