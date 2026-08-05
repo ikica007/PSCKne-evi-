@@ -5,9 +5,9 @@ export default function Contact() {
   return (
     <section id="kontakt" className="py-24 bg-[#F2F2F2]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-[#2E5BFF] font-bold tracking-wider uppercase text-sm mb-2">Kontaktirajte nas</h2>
-          <h3 className="text-3xl md:text-5xl font-bold text-[#0A1F44] uppercase tracking-tight">
+        <div className="text-center max-w-3xl mx-auto mb-16 px-4">
+          <h2 className="text-[#2E5BFF] font-bold tracking-wider uppercase text-sm mb-2 break-words">Kontaktirajte nas</h2>
+          <h3 className="text-2xl sm:text-3xl md:text-5xl font-bold text-[#0A1F44] uppercase tracking-tight break-words">
             Zakažite svoj termin
           </h3>
           <div className="w-24 h-1 bg-[#2E5BFF] mx-auto mt-6"></div>
@@ -16,8 +16,8 @@ export default function Contact() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 bg-white rounded-3xl overflow-hidden shadow-xl">
           
           {/* Contact Info & Form */}
-          <div className="p-8 md:p-12">
-            <h4 className="text-3xl md:text-4xl font-black text-[#0A1F44] mb-6 uppercase tracking-tight text-center">Ponuda za servis i djelove</h4>
+          <div className="p-6 sm:p-8 md:p-12">
+            <h4 className="text-2xl sm:text-3xl md:text-4xl font-black text-[#0A1F44] mb-6 uppercase tracking-tight text-center break-words">Ponuda za servis i djelove</h4>
             <p className="text-gray-600 text-sm md:text-base mb-4 uppercase tracking-wide font-medium text-center">Ovdje možete zatražiti ponudu za potrebni servis vozila i rezervne djelove</p>
             <p className="text-gray-800 text-sm md:text-base mb-10 uppercase tracking-wide font-bold text-center">Popunite formular i očekujte naš poziv ili odgovor</p>
             
@@ -85,9 +85,9 @@ export default function Contact() {
                 <div className="w-12 h-12 bg-[#F2F2F2] rounded-full flex items-center justify-center shrink-0 text-[#2E5BFF]">
                   <Mail size={24} />
                 </div>
-                <div>
+                <div className="overflow-hidden">
                   <p className="text-sm text-gray-500 font-medium uppercase tracking-wider mb-1">Email</p>
-                  <a href="mailto:peugeotsknezevic@t-com.me" className="text-lg font-bold text-[#0A1F44] hover:text-[#2E5BFF] transition-colors">peugeotsknezevic@t-com.me</a>
+                  <a href="mailto:peugeotsknezevic@t-com.me" className="text-base sm:text-lg font-bold text-[#0A1F44] hover:text-[#2E5BFF] transition-colors break-words max-w-full inline-block">peugeotsknezevic@t-com.me</a>
                 </div>
               </div>
 
